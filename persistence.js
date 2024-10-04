@@ -11,7 +11,7 @@ let station = undefined;
 async function connectDatabase() {
   if (!client) {
     client = new mongodb.MongoClient(
-      "mongodb+srv://60101806:12class34@clusterinfs3201.ndrfvh0.mongodb.net/"
+      "YOUR MONGO-DB STRING"
     );
     await client.connect();
     db = client.db("project");
